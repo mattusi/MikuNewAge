@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEE34A7922C99D0700E95BA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE34A7822C99D0700E95BA1 /* AppDelegate.swift */; };
+		AEE34A7B22C99D0700E95BA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE34A7A22C99D0700E95BA1 /* ViewController.swift */; };
+		AEE34A7E22C99D0700E95BA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE34A7C22C99D0700E95BA1 /* Main.storyboard */; };
+		AEE34A8022C99D0700E95BA1 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = AEE34A7F22C99D0700E95BA1 /* Experience.rcproject */; };
+		AEE34A8222C99D0800E95BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE34A8122C99D0800E95BA1 /* Assets.xcassets */; };
+		AEE34A8522C99D0800E95BA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE34A8322C99D0800E95BA1 /* LaunchScreen.storyboard */; };
+		AEE34A9022C99D0800E95BA1 /* MikuNewAgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE34A8F22C99D0800E95BA1 /* MikuNewAgeTests.swift */; };
+		AEE34A9B22C99D0800E95BA1 /* MikuNewAgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE34A9A22C99D0800E95BA1 /* MikuNewAgeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEE34A8C22C99D0800E95BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE34A6D22C99D0600E95BA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEE34A7422C99D0600E95BA1;
+			remoteInfo = MikuNewAge;
+		};
+		AEE34A9722C99D0800E95BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE34A6D22C99D0600E95BA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEE34A7422C99D0600E95BA1;
+			remoteInfo = MikuNewAge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEE34A7522C99D0600E95BA1 /* MikuNewAge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MikuNewAge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE34A7822C99D0700E95BA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEE34A7A22C99D0700E95BA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEE34A7D22C99D0700E95BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEE34A7F22C99D0700E95BA1 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		AEE34A8122C99D0800E95BA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEE34A8422C99D0800E95BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEE34A8622C99D0800E95BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEE34A8B22C99D0800E95BA1 /* MikuNewAgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MikuNewAgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE34A8F22C99D0800E95BA1 /* MikuNewAgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MikuNewAgeTests.swift; sourceTree = "<group>"; };
+		AEE34A9122C99D0800E95BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEE34A9622C99D0800E95BA1 /* MikuNewAgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MikuNewAgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE34A9A22C99D0800E95BA1 /* MikuNewAgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MikuNewAgeUITests.swift; sourceTree = "<group>"; };
+		AEE34A9C22C99D0800E95BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEE34A7222C99D0600E95BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE34A8822C99D0800E95BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE34A9322C99D0800E95BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEE34A6C22C99D0600E95BA1 = {
+			isa = PBXGroup;
+			children = (
+				AEE34A7722C99D0600E95BA1 /* MikuNewAge */,
+				AEE34A8E22C99D0800E95BA1 /* MikuNewAgeTests */,
+				AEE34A9922C99D0800E95BA1 /* MikuNewAgeUITests */,
+				AEE34A7622C99D0600E95BA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEE34A7622C99D0600E95BA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEE34A7522C99D0600E95BA1 /* MikuNewAge.app */,
+				AEE34A8B22C99D0800E95BA1 /* MikuNewAgeTests.xctest */,
+				AEE34A9622C99D0800E95BA1 /* MikuNewAgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEE34A7722C99D0600E95BA1 /* MikuNewAge */ = {
+			isa = PBXGroup;
+			children = (
+				AEE34A7822C99D0700E95BA1 /* AppDelegate.swift */,
+				AEE34A7A22C99D0700E95BA1 /* ViewController.swift */,
+				AEE34A7C22C99D0700E95BA1 /* Main.storyboard */,
+				AEE34A7F22C99D0700E95BA1 /* Experience.rcproject */,
+				AEE34A8122C99D0800E95BA1 /* Assets.xcassets */,
+				AEE34A8322C99D0800E95BA1 /* LaunchScreen.storyboard */,
+				AEE34A8622C99D0800E95BA1 /* Info.plist */,
+			);
+			path = MikuNewAge;
+			sourceTree = "<group>";
+		};
+		AEE34A8E22C99D0800E95BA1 /* MikuNewAgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEE34A8F22C99D0800E95BA1 /* MikuNewAgeTests.swift */,
+				AEE34A9122C99D0800E95BA1 /* Info.plist */,
+			);
+			path = MikuNewAgeTests;
+			sourceTree = "<group>";
+		};
+		AEE34A9922C99D0800E95BA1 /* MikuNewAgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEE34A9A22C99D0800E95BA1 /* MikuNewAgeUITests.swift */,
+				AEE34A9C22C99D0800E95BA1 /* Info.plist */,
+			);
+			path = MikuNewAgeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEE34A7422C99D0600E95BA1 /* MikuNewAge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEE34A9F22C99D0800E95BA1 /* Build configuration list for PBXNativeTarget "MikuNewAge" */;
+			buildPhases = (
+				AEE34A7122C99D0600E95BA1 /* Sources */,
+				AEE34A7222C99D0600E95BA1 /* Frameworks */,
+				AEE34A7322C99D0600E95BA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MikuNewAge;
+			productName = MikuNewAge;
+			productReference = AEE34A7522C99D0600E95BA1 /* MikuNewAge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEE34A8A22C99D0800E95BA1 /* MikuNewAgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEE34AA222C99D0800E95BA1 /* Build configuration list for PBXNativeTarget "MikuNewAgeTests" */;
+			buildPhases = (
+				AEE34A8722C99D0800E95BA1 /* Sources */,
+				AEE34A8822C99D0800E95BA1 /* Frameworks */,
+				AEE34A8922C99D0800E95BA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEE34A8D22C99D0800E95BA1 /* PBXTargetDependency */,
+			);
+			name = MikuNewAgeTests;
+			productName = MikuNewAgeTests;
+			productReference = AEE34A8B22C99D0800E95BA1 /* MikuNewAgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEE34A9522C99D0800E95BA1 /* MikuNewAgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEE34AA522C99D0800E95BA1 /* Build configuration list for PBXNativeTarget "MikuNewAgeUITests" */;
+			buildPhases = (
+				AEE34A9222C99D0800E95BA1 /* Sources */,
+				AEE34A9322C99D0800E95BA1 /* Frameworks */,
+				AEE34A9422C99D0800E95BA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEE34A9822C99D0800E95BA1 /* PBXTargetDependency */,
+			);
+			name = MikuNewAgeUITests;
+			productName = MikuNewAgeUITests;
+			productReference = AEE34A9622C99D0800E95BA1 /* MikuNewAgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEE34A6D22C99D0600E95BA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Matheus Santos";
+				TargetAttributes = {
+					AEE34A7422C99D0600E95BA1 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					AEE34A8A22C99D0800E95BA1 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = AEE34A7422C99D0600E95BA1;
+					};
+					AEE34A9522C99D0800E95BA1 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = AEE34A7422C99D0600E95BA1;
+					};
+				};
+			};
+			buildConfigurationList = AEE34A7022C99D0600E95BA1 /* Build configuration list for PBXProject "MikuNewAge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEE34A6C22C99D0600E95BA1;
+			productRefGroup = AEE34A7622C99D0600E95BA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEE34A7422C99D0600E95BA1 /* MikuNewAge */,
+				AEE34A8A22C99D0800E95BA1 /* MikuNewAgeTests */,
+				AEE34A9522C99D0800E95BA1 /* MikuNewAgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEE34A7322C99D0600E95BA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE34A8522C99D0800E95BA1 /* LaunchScreen.storyboard in Resources */,
+				AEE34A8222C99D0800E95BA1 /* Assets.xcassets in Resources */,
+				AEE34A7E22C99D0700E95BA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE34A8922C99D0800E95BA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE34A9422C99D0800E95BA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEE34A7122C99D0600E95BA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE34A7B22C99D0700E95BA1 /* ViewController.swift in Sources */,
+				AEE34A7922C99D0700E95BA1 /* AppDelegate.swift in Sources */,
+				AEE34A8022C99D0700E95BA1 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE34A8722C99D0800E95BA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE34A9022C99D0800E95BA1 /* MikuNewAgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE34A9222C99D0800E95BA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE34A9B22C99D0800E95BA1 /* MikuNewAgeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEE34A8D22C99D0800E95BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEE34A7422C99D0600E95BA1 /* MikuNewAge */;
+			targetProxy = AEE34A8C22C99D0800E95BA1 /* PBXContainerItemProxy */;
+		};
+		AEE34A9822C99D0800E95BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEE34A7422C99D0600E95BA1 /* MikuNewAge */;
+			targetProxy = AEE34A9722C99D0800E95BA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEE34A7C22C99D0700E95BA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEE34A7D22C99D0700E95BA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEE34A8322C99D0800E95BA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEE34A8422C99D0800E95BA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEE34A9D22C99D0800E95BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEE34A9E22C99D0800E95BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEE34AA022C99D0800E95BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S5SC5BABS;
+				INFOPLIST_FILE = MikuNewAge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matheus.santos.MikuNewAge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEE34AA122C99D0800E95BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S5SC5BABS;
+				INFOPLIST_FILE = MikuNewAge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matheus.santos.MikuNewAge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEE34AA322C99D0800E95BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S5SC5BABS;
+				INFOPLIST_FILE = MikuNewAgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matheus.santos.MikuNewAgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MikuNewAge.app/MikuNewAge";
+			};
+			name = Debug;
+		};
+		AEE34AA422C99D0800E95BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S5SC5BABS;
+				INFOPLIST_FILE = MikuNewAgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matheus.santos.MikuNewAgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MikuNewAge.app/MikuNewAge";
+			};
+			name = Release;
+		};
+		AEE34AA622C99D0800E95BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S5SC5BABS;
+				INFOPLIST_FILE = MikuNewAgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matheus.santos.MikuNewAgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MikuNewAge;
+			};
+			name = Debug;
+		};
+		AEE34AA722C99D0800E95BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S5SC5BABS;
+				INFOPLIST_FILE = MikuNewAgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matheus.santos.MikuNewAgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MikuNewAge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEE34A7022C99D0600E95BA1 /* Build configuration list for PBXProject "MikuNewAge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE34A9D22C99D0800E95BA1 /* Debug */,
+				AEE34A9E22C99D0800E95BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEE34A9F22C99D0800E95BA1 /* Build configuration list for PBXNativeTarget "MikuNewAge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE34AA022C99D0800E95BA1 /* Debug */,
+				AEE34AA122C99D0800E95BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEE34AA222C99D0800E95BA1 /* Build configuration list for PBXNativeTarget "MikuNewAgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE34AA322C99D0800E95BA1 /* Debug */,
+				AEE34AA422C99D0800E95BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEE34AA522C99D0800E95BA1 /* Build configuration list for PBXNativeTarget "MikuNewAgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE34AA622C99D0800E95BA1 /* Debug */,
+				AEE34AA722C99D0800E95BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEE34A6D22C99D0600E95BA1 /* Project object */;
+}
